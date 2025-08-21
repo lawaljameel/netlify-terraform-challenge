@@ -17,7 +17,7 @@ variable "repo_branch" {
 variable "publish_dir" {
   description = "Directory to publish (build output)"
   type        = string
-  default     = "/"
+  default     = "site"
 }
 
 variable "build_cmd" {
