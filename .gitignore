@@ -21,3 +21,10 @@ terraform.rc
 
 # Environment variables
 .env
+
+# Terraform variable files (may contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Generated schema files (optional)
+schema.json
