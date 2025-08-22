@@ -23,7 +23,7 @@ resource "netlify_site" "main" {
     repo_path     = var.repo_path
     repo_branch   = var.repo_branch
     deploy_key_id = netlify_deploy_key.key.id
-    dir           = var.publish_dir
+    publish_dir   = var.publish_dir
     command       = var.build_cmd
   }
 }
